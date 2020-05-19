@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">RiaboNow</string>
+
+
+
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
+    <string name="userid">UserId</string>
+    <string name="password">Password</string>
+    <string name="forgotpasswrd"><u> Forgot Password ?</u></string>
+    <string name="fullname">Full Name</string>
+    <string name="dob">DOB</string>
+    <string name="cnfrmpassword">Conform Password</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="emailid">Email Id</string>
+    <string name="occupation">Occupation</string>
+    <string name="tradingexperiences">Trading Experiences</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+
+
+    <string name="upgrademember">Are you planning to Upgrade Membership ?</string>
+
+    <string name="tradecall">Trade Calls</string>
+    <string name="joincourse">Join the course</string>
+    <string name="games">Games</string>
+    <string name="tradermotivation">Trader Motivation</string>
+    <string name="referandearn">Refer and Earn</string>
+    <string name="bulletinboard">Bulletin Board</string>
+
+
+    <string-array name="referedby">
+        <item>Reffered By</item>
+        <item>Invite Code</item>
+        <item>Social</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>Occupation</item>
+        <item>XXXX</item>
+        <item>YYY</item>
+        <item>ZZZ</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="tradeexperiences">
+        <item>Trading Experiences</item>
+        <item>0-1 yrs</item>
+        <item>1-3 yrs</item>
+        <item>3-5 yrs</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="membership">
+        <item>Select Membership</item>
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Diamond</item>
+        <item>Free</item>
+    </string-array>
+
+</resources>

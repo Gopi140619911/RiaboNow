@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Registration Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tv_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:hint="@string/fullname"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <TextView
+                android:id="@+id/et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/dob"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+            <EditText
+                android:id="@+id/tv_userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/userid"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+            <EditText
+                android:id="@+id/tv_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/password"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+            <EditText
+                android:id="@+id/tv_cnfrm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/cnfrmpassword"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <EditText
+                android:id="@+id/tv_mobilenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/mobilenumber"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <EditText
+                android:id="@+id/tv_emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/emailid"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <Spinner
+                android:id="@+id/sp_occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/occupation"
+                android:dropDownVerticalOffset="40dp"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                android:entries="@string/occupation"/>
+
+            <Spinner
+                android:id="@+id/sp_trading_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/tradingexperiences"
+                android:dropDownVerticalOffset="40dp"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                />
+
+            <EditText
+                android:id="@+id/tv_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/city"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <EditText
+                android:id="@+id/tv_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:hint="@string/state"
+                android:padding="10dp"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color2" />
+
+            <Spinner
+                android:id="@+id/sp_refferedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:dropDownVerticalOffset="40dp"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                 />
+
+            <Spinner
+                android:id="@+id/sp_membership"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:dropDownVerticalOffset="40dp"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:spinnerMode="dropdown"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/silverContainer"
+                 >
+
+                <TextView
+                    android:id="@+id/silver_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary"
+                    android:hint="@string/dob"
+                    android:padding="10dp"
+                    android:textColor="@color/color1"
+                    android:textColorHint="@color/color2" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@color/color1"
+                android:background="@drawable/rounded_corner_button"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

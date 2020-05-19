@@ -1,0 +1,2 @@
+rootProject.name='RiaboNow'
+include ':app', ':ViewPagerIndicator-Library'
