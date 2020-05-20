@@ -1,33 +1,6 @@
 <resources>
     <string name="app_name">RiaboNow</string>
-
-
-
-    <string name="signin">SignIn</string>
-    <string name="signup">SignUp</string>
-    <string name="userid">UserId</string>
-    <string name="password">Password</string>
-    <string name="forgotpasswrd"><u> Forgot Password ?</u></string>
-    <string name="fullname">Full Name</string>
-    <string name="dob">DOB</string>
-    <string name="cnfrmpassword">Conform Password</string>
-    <string name="mobilenumber">Mobile Number</string>
-    <string name="emailid">Email Id</string>
-    <string name="occupation">Occupation</string>
-    <string name="tradingexperiences">Trading Experiences</string>
-    <string name="city">City</string>
-    <string name="state">State</string>
-
-
-    <string name="upgrademember">Are you planning to Upgrade Membership ?</string>
-
-    <string name="tradecall">Trade Calls</string>
-    <string name="joincourse">Join the course</string>
-    <string name="games">Games</string>
-    <string name="tradermotivation">Trader Motivation</string>
-    <string name="referandearn">Refer and Earn</string>
-    <string name="bulletinboard">Bulletin Board</string>
-
+    <string name="app_welcome">Welcome to \n RiaboNow</string>
 
     <string-array name="referedby">
         <item>Reffered By</item>
@@ -60,4 +33,47 @@
         <item>Free</item>
     </string-array>
 
+
+    <string name="signin">SignIn</string>
+    <string name="signup"><u> SignUp </u></string>
+    <string name="userid">UserId</string>
+    <string name="password">Password</string>
+    <string name="forgotpasswrd"><u> Forgot Password ?</u></string>
+    <string name="fullname">Full Name</string>
+    <string name="dob">DOB</string>
+    <string name="cnfrmpassword">Conform Password</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="emailid">Email Id</string>
+    <string name="occupation">Occupation</string>
+    <string name="tradingexperiences">Trading Experiences</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+
+
+    <string name="upgrademember">Are you planning to Upgrade Membership ?</string>
+
+    <string name="tradecall">Trade Calls</string>
+    <string name="joincourse">Join the course</string>
+    <string name="games">Games</string>
+    <string name="tradermotivation">Trader Motivation</string>
+    <string name="referandearn">Refer and Earn</string>
+    <string name="bulletinboard">Bulletin Board</string>
+
+
+    <string name="openaccount">Open an account with us</string>
+    <string name="cmpnyname">1.Zerodha Stock Broking Ltd.</string>
+    <string name="opennow">Open Now</string>
+    <string name="addson">Get Lifetime Free Silver Membership or Basic Course worth Rs 2500</string>
+
+    <string name="myhome">Home</string>
+    <string name="myprofile">My Profile</string>
+    <string name="mycart">My Cart</string>
+    <string name="myreferal">My Referal</string>
+    <string name="myscore">My Score</string>
+    <string name="performancereport">Riabonow Performance Report</string>
+    <string name="contactus">Contact Riabonow</string>
+    <string name="termsandaggrement">Terms and Aggrement</string>
+    <string name="discliminarpolicy">Discliminary Policy</string>
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="rateus">Rate Us</string>
 </resources>

@@ -5,17 +5,59 @@
                 Add menu items here
                 Menu items with icon and Title
         -->
+
         <item
-            android:id="@+id/first"
+            android:id="@+id/home"
             android:icon="@drawable/ic_enter"
-            android:title="First Menu" />
+            android:title="@string/myhome" />
         <item
-            android:id="@+id/second"
+            android:id="@+id/profile"
             android:icon="@drawable/ic_enter"
-            android:title="Second Menu" />
+            android:title="@string/myprofile" />
         <item
-            android:id="@+id/third"
+            android:id="@+id/cart"
             android:icon="@drawable/ic_enter"
-            android:title="Third Menu" />
+            android:title="@string/mycart" />
+        <item
+            android:id="@+id/referal"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/myreferal" />
+
+        <item
+            android:id="@+id/score"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/myscore" />
+
+        <item
+            android:id="@+id/performance"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/performancereport" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/contactus" />
+
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/rateus" />
+
+        <item
+            android:id="@+id/terms"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/termsandaggrement" />
+
+        <item
+            android:id="@+id/discliminarpolicy"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/discliminarpolicy" />
+
+        <item
+            android:id="@+id/privacypolicy"
+            android:icon="@drawable/ic_enter"
+            android:title="@string/privacypolicy" />
+
+
     </group>
 </menu>

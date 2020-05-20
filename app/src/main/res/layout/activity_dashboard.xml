@@ -4,7 +4,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -28,5 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/nav_items" />
+        app:menu="@menu/nav_items"
+        android:background="@color/colorPrimary"
+        app:itemTextColor="@color/color1"
+        app:itemTextAppearance="?android:attr/textAppearanceMedium"/>
 </androidx.drawerlayout.widget.DrawerLayout>

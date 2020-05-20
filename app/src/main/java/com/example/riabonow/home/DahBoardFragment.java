@@ -2,9 +2,11 @@ package com.example.riabonow.home;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
@@ -17,7 +19,7 @@ import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class DahBoardFragment extends Fragment {
+public class DahBoardFragment extends Fragment implements View.OnClickListener {
 
     View view;
     CirclePageIndicator indicator;
@@ -26,6 +28,7 @@ public class DahBoardFragment extends Fragment {
     private static int NUM_PAGES = 0;
     private static final Integer[] IMAGES= {R.drawable.ic_gold_line_down,R.drawable.ic_gold_line_up,R.drawable.ic_gold_line_down,R.drawable.ic_gold_line_up};
     private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
+    ImageView imgMenu;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -33,8 +36,9 @@ public class DahBoardFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_dashboard, container, false);
         mPager = (ViewPager)view. findViewById(R.id.pager);
         indicator = (CirclePageIndicator)view.findViewById(R.id.indicator);
-
+        imgMenu= (ImageView)view.findViewById(R.id.img_menu);
         init();
+        imgMenu.setOnClickListener(this);
 
         return view;
     }
@@ -93,4 +97,13 @@ public class DahBoardFragment extends Fragment {
 
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.img_menu:
+                DashboardActivity.dLayout.openDrawer(Gravity.LEFT);
+                break;
+        }
+
+    }
 }
